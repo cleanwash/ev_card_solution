@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
 
-class CArdScreenView with ChangeNotifier {
+class CardScreenView with ChangeNotifier {
   
 }

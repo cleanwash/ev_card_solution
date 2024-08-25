@@ -1,4 +1,7 @@
-import 'package:ev_card_solution/presentation/view/on_boarding_screen.dart';
+import 'package:ev_card_solution/data/data_source/card_api.dart';
+import 'package:ev_card_solution/data/repository/card_repository_impl.dart';
+import 'package:ev_card_solution/domain/repository/card_repository.dart';
+import 'package:ev_card_solution/presentation/view/card_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
@@ -16,6 +19,9 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final CardApi cardApi = CardApi();
+    final CardRepository cardRepository = CardRepositoryImpl(cardApi: cardApi);
+
     return ResponsiveSizer(
       builder: (context, orientation, screenType) => MaterialApp(
         title: 'Flutter Demo',
@@ -23,7 +29,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const OnBoardingScreen(),
+        home: CardScreen(cardRepository: cardRepository),
       ),
     );
   }
