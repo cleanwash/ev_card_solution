@@ -1,6 +1,7 @@
 import 'package:ev_card_solution/data/data_source/card_api.dart';
 import 'package:ev_card_solution/data/repository/card_repository_impl.dart';
 import 'package:ev_card_solution/domain/repository/card_repository.dart';
+import 'package:ev_card_solution/presentation/component/card_items.dart';
 import 'package:ev_card_solution/presentation/view/card_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:responsive_sizer/responsive_sizer.dart';
@@ -29,7 +30,8 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: CardScreen(cardRepository: cardRepository),
+        home: CardScreen()
+        // home: CardScreen()
       ),
     );
   }
