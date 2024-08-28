@@ -1,5 +1,5 @@
-import 'package:ev_card_solution/domain/model/card.dart';
+import 'package:ev_card_solution/domain/model/card_model.dart';
 
 abstract class CardRepository {
-  Future<List<Card>> getCardResults({String? cardName});
+  Future<List<CardModel>> getCardResults({String? cardName});
 }

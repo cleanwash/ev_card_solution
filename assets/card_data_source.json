@@ -1,7 +1,8 @@
 {
 "cards": [
 {
-"cardName": "신한EV",
+"cardName": "신한_ev",
+"imageUrl": "assets/images/신한_ev.png",
 "discountTiers": [
 {
 "maximumDiscount": 20000,
@@ -39,7 +40,8 @@
 ]
 },
 {
-"cardName": "삼성 iD EV",
+"cardName": "삼성_iD_EV",
+"imageUrl": "assets/images/삼성_iD_EV.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 50,
@@ -76,7 +78,8 @@
 ]
 },
 {
-"cardName": "삼성 iD 에너지",
+"cardName": "삼성_iD_에너지",
+"imageUrl": "assets/images/삼성_iD_에너지.png",
 "discountTiers": [
 {
 "maximumDiscount": 5000,
@@ -105,7 +108,8 @@
 ]
 },
 {
-"cardName": "삼성 iD Plug-in",
+"cardName": "삼성_iD_Plug-in",
+"imageUrl": "assets/images/삼성_iD_Plug-in.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 20,
@@ -156,7 +160,8 @@
 ]
 },
 {
-"cardName": "어디로든 그린카드",
+"cardName": "어디로든_그린카드",
+"imageUrl": "assets/images/어디로든_그린카드.png",
 "discountTiers": [
 {
 "maximumDiscount": 20000,
@@ -180,7 +185,8 @@
 ]
 },
 {
-"cardName": "NU Auto 우리카드",
+"cardName": "NU_Auto_우리카드",
+"imageUrl": "assets/images/NU_Auto_우리카드.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 30,
@@ -221,7 +227,8 @@
 ]
 },
 {
-"cardName": "현대EV",
+"cardName": "현대_ev",
+"imageUrl": "assets/images/현대_ev.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 50,
@@ -258,7 +265,8 @@
 ]
 },
 {
-"cardName": "알뜰교통 신한카드",
+"cardName": "알뜰교통_신한카드",
+"imageUrl": "assets/images/알뜰교통_신한카드.png",
 "discountTiers": [
 {
 "maximumDiscount": 20000,
@@ -285,7 +293,8 @@
 ]
 },
 {
-"cardName": "신한 everywhere",
+"cardName": "신한_everywhere",
+"imageUrl": "assets/images/신한_everywhere.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 20,
@@ -369,7 +378,8 @@
 ]
 },
 {
-"cardName": "국민evo 티타늄",
+"cardName": "국민evo_티타늄",
+"imageUrl": "assets/images/국민evo_티타늄.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 50,
@@ -399,7 +409,8 @@
 "eligibleCompanies": ["확인요망"]
 },
 {
-"cardName": "국민 Green Wave 1.5°C",
+"cardName": "국민_Green_Wave_1.5°C",
+"imageUrl": "assets/images/국민_Green_Wave_1.5°C.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 10,
@@ -429,7 +440,8 @@
 "eligibleCompanies": ["확인요망"]
 },
 {
-"cardName": "배차장 삼성 Biz iD BENEFIT",
+"cardName": "배차장_삼성_Biz_iD_BENEFIT",
+"imageUrl": "assets/images/배차장_삼성_Biz_iD_BENEFIT.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 3,
@@ -466,7 +478,9 @@
 ]
 },
 {
-"cardName": "삼성 BIZ iD BENEFIT",
+"cardName": "삼성_BIZ_iD_BENEFIT",
+"imageUrl": "assets/images/삼성_BIZ_iD_BENEFIT.png",
+
 "discountTiers": [
 {
 "monthlyDiscountRate": 1.5,
@@ -495,7 +509,8 @@
 ]
 },
 {
-"cardName": "Nu Nature",
+"cardName": "Nu_Nature",
+"imageUrl": "assets/images/Nu_Nature.png",
 "discountTiers": [
 {
 "monthlyDiscountRate": 60,
