@@ -22,11 +22,8 @@ class CardScreenViewModel with ChangeNotifier {
     notifyListeners();
 
     try {
-      print('CardScreenViewModel: Starting to load cards'); // 디버깅 로그
       _cards = await _cardRepository.getCardResults();
-      print('CardScreenViewModel: Loaded ${_cards.length} cards'); // 디버깅 로그
     } catch (e) {
-      print('CardScreenViewModel: Error loading cards - $e'); // 에러 로깅
       _error = e.toString();
     } finally {
       _isLoading = false;

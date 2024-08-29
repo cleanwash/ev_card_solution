@@ -1,4 +1,4 @@
-import 'package:ev_card_solution/core/router.dart';
+import 'package:ev_card_solution/utils/router.dart';
 import 'package:ev_card_solution/data/repository/card_repository_impl.dart';
 import 'package:ev_card_solution/domain/repository/card_repository.dart';
 import 'package:ev_card_solution/presentation/view/card_screen_view.dart';
@@ -31,7 +31,7 @@ class MyApp extends StatelessWidget {
       builder: (context, orientation, screenType) => ChangeNotifierProvider(
         create: (_) => CardScreenViewModel(cardRepository),
         child: MaterialApp.router(
-          routerConfig: router, // router.dart에서 정의한 _router 사용
+          routerConfig: router, 
           title: 'EV Card Solution',
           theme: ThemeData(
             colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),

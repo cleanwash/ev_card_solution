@@ -6,8 +6,10 @@ import 'package:navigation_view/navigation_view.dart';
 class BottomNavBar extends StatelessWidget {
   const BottomNavBar({
     super.key,
-    required bool atBottom,
+    required this.atBottom,
   });
+
+  final bool atBottom;
 
   @override
   Widget build(BuildContext context) {
@@ -15,7 +17,7 @@ class BottomNavBar extends StatelessWidget {
 
     return NavigationView(
       onChangePage: (changed) {},
-      curve: Curves.fastEaseInToSlowEaseOut,
+      curve: Curves.easeInBack,
       durationAnimation: const Duration(milliseconds: 400),
       backgroundColor: Colors.black54,
       borderTopColor: Colors.black26,
@@ -23,34 +25,12 @@ class BottomNavBar extends StatelessWidget {
       items: [
         ItemNavigationView(
             childAfter: Icon(
-              IconlyBold.profile,
+              IconlyBold.location,
               color: Colors.orange.withOpacity(.5),
               size: 35,
             ),
             childBefore: Icon(
-              IconlyBroken.profile,
-              color: theme.dialogBackgroundColor,
-              size: 30,
-            )),
-        ItemNavigationView(
-            childAfter: Icon(
-              IconlyBold.chart,
-              color: Colors.orange.withOpacity(.5),
-              size: 35,
-            ),
-            childBefore: Icon(
-              IconlyBroken.chart,
-              color: theme.dialogBackgroundColor,
-              size: 30,
-            )),
-        ItemNavigationView(
-            childAfter: Icon(
-              IconlyBold.category,
-              color: Colors.orange.withOpacity(.5),
-              size: 35,
-            ),
-            childBefore: Icon(
-              IconlyBroken.category,
+              IconlyBold.location,
               color: theme.dialogBackgroundColor,
               size: 30,
             )),
