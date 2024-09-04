@@ -46,3 +46,6 @@ app.*.map.json
 # Generated Dart files
 **/*.g.dart
 **/*.freezed.dart
+
+# Keystore files
+**/android/key.properties
